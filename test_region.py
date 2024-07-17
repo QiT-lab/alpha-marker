@@ -74,13 +74,14 @@ if __name__ == "__main__":
   alpha_path = sys.argv[1]
   marker_path = sys.argv[2]
   threads = int(sys.argv[3])
+  all_type = list(sys.argv[4])
   
   all_df = merge_alpha_files(alpha_path)
   #all_df.replace([np.inf, -np.inf], np.nan, inplace=True)
   #all_df = all_df.dropna()
   
   #all_type = ['Vein-Endothel','Hepatocytes','Erythrocyte','Monocytes','Granulocytes']
-  all_type = ['cfDNA','Breast']
+  #all_type = ['cfDNA','Breast']
   parts = split_df(all_df,threads)
   
 
