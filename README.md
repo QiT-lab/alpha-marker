@@ -1,3 +1,4 @@
+## Alpha marker identification
 we have developed a method which is based on read-level to calculate cell type-specific methylation regions, which can be used as features for dissecting biological functions and identifying cell types.The process is divided into four steps:
 
 ![ok3j3x3q](https://github.com/user-attachments/assets/a4432e49-5577-4be0-b139-acb9f5692698)
