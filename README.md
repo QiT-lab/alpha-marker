@@ -38,4 +38,5 @@ python test_region.py /mnt/data3/3_region_mean_alpha/ /mnt/data3/output_marker/ 
 ```
 After we get the marker file for each cell type, we use p value < 0.05 and delta mean > 0.5 to filter out the regions with differences of every cell type.
 
+## Citation
 *[1] Loyfer N, Rosenski J, Kaplan T. wgbstools: A computational suite for DNA methylation sequencing data representation, visualization, and analysis, bioRxiv 2024:2024.2005.2008.593132*
