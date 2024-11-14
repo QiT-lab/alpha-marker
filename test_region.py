@@ -1,6 +1,7 @@
 import sys
 import os
 import csv
+import ast
 import pandas as pd
 import numpy as np
 from scipy.stats import ranksums
@@ -74,7 +75,7 @@ if __name__ == "__main__":
   alpha_path = sys.argv[1]
   marker_path = sys.argv[2]
   threads = int(sys.argv[3])
-  all_type = list(sys.argv[4])
+  all_type = ast.literal_eval(sys.argv[4])
   
   all_df = merge_alpha_files(alpha_path)
   #all_df.replace([np.inf, -np.inf], np.nan, inplace=True)
