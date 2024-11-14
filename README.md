@@ -3,7 +3,7 @@ we have developed a method which is based on read-level to calculate cell type-s
 
 ![ok3j3x3q](https://github.com/user-attachments/assets/a4432e49-5577-4be0-b139-acb9f5692698)
 
-First, segment the whole genome. This step uses a dynamic programming segmentation algorithm to divide the genome into consistent region blocks with the software named wgbstools (https://github.com/nloyfer/wgbs_tools) developed by Netanel et al[1]. 
+First, segment the whole genome. This step uses a dynamic programming segmentation algorithm to divide the genome into consistent region blocks with the software named wgbstools (https://github.com/nloyfer/wgbs_tools). 
 We use *segment* command to divide the whole genome.The input is beta files of all your samples, block.bed is the output. The region less than 4 CpGs will be discarded.
 
 ```
